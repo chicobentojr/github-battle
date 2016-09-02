@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/chicobentojr/github-battle#readme",
   "dependencies": {
+    "axios": "^0.14.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-router": "^2.0.0-rc5"
