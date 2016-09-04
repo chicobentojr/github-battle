@@ -1,16 +1,15 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
-var styles = require('../styles');
 var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
-var { Link } = require('react-router');
+var Link = require('react-router').Link;
 var MainContainer = require('./MainContainer');
 var Loading = require('./Loading');
 
 
 function StartOver(){
   return (
-    <div className='col-sm-12' style={styles.space}>
+    <div className='col-sm-12 top-space'>
       <Link to='playerOne'>
         <button type='button' className='btn btn-lg btn-danger'>
           Start Over

@@ -1,9 +1,8 @@
 var React = require('react');
-var styles = require('../styles');
 
 function MainContainer(props){
   return (
-    <div className="jumbotron col-sm-12 text-center" style={styles.transparentBg}>
+    <div className="jumbotron col-sm-12 text-center transparentBg">
       {props.children}
     </div>
   )

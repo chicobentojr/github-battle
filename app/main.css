@@ -12,3 +12,11 @@
 .appear-leave {
   opacity: 0;
 }
+
+.transparentBg {
+  background-color: transparent;
+}
+
+.top-space {
+  margin-top: 25px;
+}
