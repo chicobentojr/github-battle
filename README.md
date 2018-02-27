@@ -7,8 +7,9 @@ An react app product of the [React.js Fundamentals](http://courses.reactjsprogra
 ```
 npm install
 npm run start
-open http://localhost:8080
 ```
+
+Open [http://localhost:8080](http://localhost:8080)
 
 ### Thanks
 
