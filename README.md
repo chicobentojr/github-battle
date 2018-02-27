@@ -1,6 +1,6 @@
 # Github Battle
 
-An react app product of the [React.js Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals) course
+A react app product of the [React.js Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals) course
 
 ### Usage
 

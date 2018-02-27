@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p",
-    "start": "webpack-dev-server"
+    "production": "NODE_ENV=production webpack -p",
+    "start": "webpack-dev-server",
+    "predeploy": "npm run production",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.11.1",
     "css-loader": "^0.24.0",
+    "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^2.22.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
